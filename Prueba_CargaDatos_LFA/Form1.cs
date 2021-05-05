@@ -87,7 +87,11 @@ namespace Prueba_CargaDatos_LFA
                 throw new ApplicationException(ex.Message, ex);
             }
         }
-        
-        
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form Prueba = new PruebaMaquina();
+            Prueba.Show();
+        }
     }
 }

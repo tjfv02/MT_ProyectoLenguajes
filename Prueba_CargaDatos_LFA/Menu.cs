@@ -16,5 +16,11 @@ namespace Prueba_CargaDatos_LFA
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form Carga = new Form1();
+            Carga.Show();
+        }
     }
 }
