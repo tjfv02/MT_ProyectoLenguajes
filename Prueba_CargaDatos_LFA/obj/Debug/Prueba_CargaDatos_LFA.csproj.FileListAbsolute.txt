@@ -1,0 +1,11 @@
+C:\Users\HP\source\repos\Prueba_CargaDatos_LFA\Prueba_CargaDatos_LFA\bin\Debug\Prueba_CargaDatos_LFA.exe.config
+C:\Users\HP\source\repos\Prueba_CargaDatos_LFA\Prueba_CargaDatos_LFA\bin\Debug\Prueba_CargaDatos_LFA.exe
+C:\Users\HP\source\repos\Prueba_CargaDatos_LFA\Prueba_CargaDatos_LFA\bin\Debug\Prueba_CargaDatos_LFA.pdb
+C:\Users\HP\source\repos\Prueba_CargaDatos_LFA\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\Prueba_CargaDatos_LFA\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.Form1.resources
+C:\Users\HP\source\repos\Prueba_CargaDatos_LFA\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.Properties.Resources.resources
+C:\Users\HP\source\repos\Prueba_CargaDatos_LFA\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\Prueba_CargaDatos_LFA\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Prueba_CargaDatos_LFA\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.exe
+C:\Users\HP\source\repos\Prueba_CargaDatos_LFA\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.pdb
+C:\Users\HP\source\repos\Prueba_CargaDatos_LFA\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.Menu.resources
