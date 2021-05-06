@@ -66,7 +66,7 @@ namespace Clases_MT
                     EstadoActual = EstadoFinal;
                 }
 
-                alfabeto = Convert.ToString(cinta);
+                alfabeto = new string(cinta);
                 //posicion
                 actual = EstadoActual;
                 ultima = Convert.ToString(cinta[posicion]) + "," + Convert.ToString(EstadoActual) + "," + valores[0] + "," + valores[1] + "," + valores[2];
