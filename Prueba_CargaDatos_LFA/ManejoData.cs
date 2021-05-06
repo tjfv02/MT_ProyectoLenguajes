@@ -8,7 +8,8 @@ namespace Prueba_CargaDatos_LFA
 {
     public class ManejoData
     {
-        Dictionary<string, string> Transiciones = new Dictionary<string, string>();
+        public string alfabeto = "";
+        public Dictionary<string, string> Transiciones = new Dictionary<string, string>();
 
         public void ObtenerValores(string Contenido)
         {
@@ -24,6 +25,7 @@ namespace Prueba_CargaDatos_LFA
             NumEstados = Convert.ToInt32(Datos[0]);
             EstadoInicial = Convert.ToInt32(Datos[1]);
             Alfabeto = Datos[2];
+            alfabeto = Alfabeto;
 
             for (int i = 3; i < Datos.Length; i++)
             {

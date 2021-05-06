@@ -17,14 +17,14 @@ namespace Clases_MT
         int posicion = 0;
         string UltimaTransicion = "";
 
-        private void Movimiento(string alfabeto, Dictionary<string, string> Diccionario)
+        public void Movimiento(ref string alfabeto, Dictionary<string, string> Diccionario, ref int posicion, ref int actual, ref string ultima)
         {
-            alfabeto = "_" + alfabeto;
+            alfabeto = "_" + alfabeto + "_";
             char[] cinta = alfabeto.ToCharArray();
             int cantidad = cinta.Count();
             do
             {
-                string llave = Convert.ToString(cinta[posicion]) + Convert.ToString(EstadoActual);
+                string llave = Convert.ToString(EstadoActual) + Convert.ToString(cinta[posicion]);
                 string datos = Diccionario[llave];
                 string[] valores = datos.Split('°');
                 EstadoFinal = int.Parse(valores[0]);
@@ -32,7 +32,7 @@ namespace Clases_MT
                 MovimientoCabezal = Convert.ToChar(valores[2]);
                 MovimientoCabezal = char.ToUpper(MovimientoCabezal);
                 cinta[posicion] = SimboloEscribir;
-                if (MovimientoCabezal=='I')
+                if (MovimientoCabezal == 'I')
                 {
                     if ((posicion - 1) > 0)
                     {
@@ -66,10 +66,10 @@ namespace Clases_MT
                     EstadoActual = EstadoFinal;
                 }
 
-                string CintaActual = Convert.ToString(cinta);
+                alfabeto = Convert.ToString(cinta);
                 //posicion
-                //Estado actual
-                UltimaTransicion = Convert.ToString(cinta[posicion]) + "," + Convert.ToString(EstadoActual) + "," + valores[0] + "," + valores[1] + "," + valores[2];
+                actual = EstadoActual;
+                ultima = Convert.ToString(cinta[posicion]) + "," + Convert.ToString(EstadoActual) + "," + valores[0] + "," + valores[1] + "," + valores[2];
                 //return (cinta, posicion, EstadoActual, UltimaTransicion);
             } while (proceso);
         }
