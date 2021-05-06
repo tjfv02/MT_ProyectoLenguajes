@@ -13,6 +13,8 @@ namespace Prueba_CargaDatos_LFA
 {
     public partial class Form1 : Form
     {
+        string alfabeto = "";
+        Dictionary<string, string> dic;
         public Form1()
         {
             InitializeComponent();
@@ -68,7 +70,8 @@ namespace Prueba_CargaDatos_LFA
                 FileInfo fiArchivo = new FileInfo(ruta);
                 StreamReader srLeerArchivo = new StreamReader(ruta,System.Text.Encoding.UTF8);
                 data.ObtenerValores(srLeerArchivo.ReadToEnd());
-
+                alfabeto = data.alfabeto;
+                dic = data.Transiciones;
                 //this.ObtenerValores(Data);
 
                 using (srLeerArchivo = fiArchivo.OpenText())
@@ -90,7 +93,8 @@ namespace Prueba_CargaDatos_LFA
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form Prueba = new PruebaMaquina();
+            
+            Form Prueba = new PruebaMaquina(alfabeto,dic);
             Prueba.Show();
         }
     }

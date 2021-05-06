@@ -21,3 +21,15 @@ C:\Users\HP\Source\Repos\MT_ProyectoLenguajes_LFA\Prueba_CargaDatos_LFA\obj\Debu
 C:\Users\HP\Source\Repos\MT_ProyectoLenguajes_LFA\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.csproj.CoreCompileInputs.cache
 C:\Users\HP\Source\Repos\MT_ProyectoLenguajes_LFA\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.exe
 C:\Users\HP\Source\Repos\MT_ProyectoLenguajes_LFA\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.pdb
+C:\Users\voca9\Desktop\PROYECTO\Prueba_CargaDatos_LFA\bin\Debug\Prueba_CargaDatos_LFA.exe.config
+C:\Users\voca9\Desktop\PROYECTO\Prueba_CargaDatos_LFA\bin\Debug\Prueba_CargaDatos_LFA.exe
+C:\Users\voca9\Desktop\PROYECTO\Prueba_CargaDatos_LFA\bin\Debug\Prueba_CargaDatos_LFA.pdb
+C:\Users\voca9\Desktop\PROYECTO\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.csprojAssemblyReference.cache
+C:\Users\voca9\Desktop\PROYECTO\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.Form1.resources
+C:\Users\voca9\Desktop\PROYECTO\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.Menu.resources
+C:\Users\voca9\Desktop\PROYECTO\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.Properties.Resources.resources
+C:\Users\voca9\Desktop\PROYECTO\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.PruebaMaquina.resources
+C:\Users\voca9\Desktop\PROYECTO\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.csproj.GenerateResource.cache
+C:\Users\voca9\Desktop\PROYECTO\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.csproj.CoreCompileInputs.cache
+C:\Users\voca9\Desktop\PROYECTO\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.exe
+C:\Users\voca9\Desktop\PROYECTO\Prueba_CargaDatos_LFA\obj\Debug\Prueba_CargaDatos_LFA.pdb
